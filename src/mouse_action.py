@@ -19,12 +19,12 @@ class_labels = ["doubleClick", "drag", "drop", "leftClick", "moveCursor", "right
 # Gesture Icons + Descriptions
 # -------------------------
 gesture_icons_info = {
-    "doubleClick": ("doubleClick.png", "Double Click"),
-    "drag":        ("drag.png",        "Click and hold (Drag)"),
-    "drop":        ("drop.png",        "Release mouse (Drop)"),
-    "leftClick":   ("leftClick.png",   "Left Mouse Click"),
-    "moveCursor":  ("moveCursor.png",  "Move Mouse Pointer"),
-    "rightClick":  ("rightClick.png",  "Right Mouse Click"),
+    "doubleClick": ("icon_images/doubleClick.png", "Double Click"),
+    "drag":        ("icon_images/drag.png",        "Click and hold (Drag)"),
+    "drop":        ("icon_images/drop.png",        "Release mouse (Drop)"),
+    "leftClick":   ("icon_images/leftClick.png",   "Left Mouse Click"),
+    "moveCursor":  ("icon_images/moveCursor.png",  "Move Mouse Pointer"),
+    "rightClick":  ("icon_images/rightClick.png",  "Right Mouse Click"),
 }
 
 gesture_icons = {}
