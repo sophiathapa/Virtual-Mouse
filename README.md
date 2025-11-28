@@ -45,7 +45,7 @@ A computer-vision powered virtual mouse system that uses hand gestures to contro
 **Clone the repository:**
 
 ```bash
-git clone https://github.com/sophiathapa/Hangman-Game.git
+git clone https://github.com/sophiathapa/Virtual-Mouse.git
 
 ```
 
