@@ -3,25 +3,26 @@
 A computer-vision powered virtual mouse system that uses hand gestures to control mouse movements, clicks, and interactions removing the need for a physical mouse. Built using Python, OpenCV, MediaPipe, and PyAutoGUI, this project demonstrates the use of real-time hand tracking and gesture recognition.
 ## 🚀 Features
 
-- Real-time hand tracking using MediaPipe
+- Real-time hand tracking system using CNN model for hand gesture recognition.
 
-- Cursor control based on index finger position
+- Use six different hand gestures for the mouse action.
 
-- Left click, right click, drag and drop gestures
+- Smooth cursor movement with stabilization.
 
-- Smooth cursor movement with stabilization
-
-- Works with any webcam
-
-- Lightweight and fast (runs on CPU)
 
   
 ## 🛠️ Tech Stack
 - **Language**: Python
-- **Libraries**: OpenCV, MediaPipe, PyAutoGUI, NumPy, Tenserflow
+- **Libraries**: OpenCV, PyAutoGUI, NumPy, Tensorflow, imutils, collections, keras
 - **Tools**: Webcam, Virtual Environment (optional)
 
 
+## Implemented CNN model 
+![System Overview](assets/CNNmodel.png)
+
+## System Overview
+
+![Home Page](assets/system.png)
 
 ## ✋ Gesture Controls
 
@@ -33,8 +34,6 @@ A computer-vision powered virtual mouse system that uses hand gestures to contro
 | 👆 Index & Thumb Pinch  | Double Click  |
 | ✊ Closed Fist   | Drag  |
 |🖐️ Open Palm | Drop |
-
-
 
 
 ## Installation
